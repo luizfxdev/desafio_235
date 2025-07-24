@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Missão Intergaláctica: Proteja a Terra dos Asteroides</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Missão Intergaláctica</h1>
+      <h2>Proteja a Terra dos Asteroides! 🌌🛡️</h2>
+
+      <div class="input-group">
+        <label for="asteroid1">Asteroide 1:</label>
+        <input type="text" id="asteroid1" placeholder="Ex: 5, 3, 9" />
+      </div>
+
+      <div class="input-group">
+        <label for="asteroid2">Asteroide 2:</label>
+        <input type="text" id="asteroid2" placeholder="Ex: 3, 6, 9" />
+      </div>
+
+      <div class="input-group">
+        <label for="asteroid3">Asteroide 3:</label>
+        <input type="text" id="asteroid3" placeholder="Ex: 5, 6" />
+      </div>
+
+      <div class="button-group">
+        <button id="simulate" class="btn">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          SIMULAR
+        </button>
+
+        <button id="reset" class="btn">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          RETORNAR
+        </button>
+      </div>
+      <br />
+      <br />
+
+      <div class="result-container">
+        <h3>Resultado:</h3>
+        <div id="result"></div>
+        <div id="calculation"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
